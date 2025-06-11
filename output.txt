@@ -1,0 +1,35 @@
+> source("/home/benim/Desktop/To-Do/USGovernmentExmployeeAge/project.r", encoding = "UTF-8")
+[1] "Government employees born before 1945:"
+# A tibble: 24 × 3
+   Name                  BirthYear Type          
+   <chr>                 <chr>     <chr>         
+ 1 Jim Risch             1943      Senator       
+ 2 Dick Durbin           1944      Senator       
+ 3 Chuck Grassley        1933      Senator       
+ 4 Mitch McConnell       1942      Senator       
+ 5 Angus King            1944      Senator       
+ 6 Bernie Sanders        1941      Senator       
+ 7 Doris Matsui          1944      Representative
+ 8 John Garamendi        1945      Representative
+ 9 Nancy Pelosi          1940      Representative
+10 Maxine Waters         1938      Representative
+11 Rosa DeLauro          1943      Representative
+12 Frederica Wilson      1942      Representative
+13 David Scott           1945      Representative
+14 Danny Davis           1941      Representative
+15 Jan Schakowsky        1944      Representative
+16 Jim Baird             1945      Representative
+17 Hal Rogers            1937      Representative
+18 Steny Hoyer           1939      Representative
+19 Emanuel Cleaver       1944      Representative
+20 Bonnie Watson Coleman 1945      Representative
+21 Virginia Foxx         1943      Representative
+22 Jim Clyburn           1940      Representative
+23 John Carter           1941      Representative
+24 Joe Biden             1942      President     
+# A tibble: 3 × 2
+  Type           Total
+  <chr>          <int>
+1 President          1
+2 Representative    17
+3 Senator            6
